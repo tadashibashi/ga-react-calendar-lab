@@ -35,6 +35,8 @@ header {
     var(--header-gradient-color-1));
   padding: 1vmin;
   border-radius: 4vmin 4vmin 0 0;
+
+  box-shadow: 0 4px 500px black;
 }
 
 h1 {
@@ -45,6 +47,5 @@ h1 {
 
 hr {
   border: 1px #2d2d2d solid;
-  margin-top: 0;
-  margin-bottom: 2vmin;
+  margin: 0;
 }

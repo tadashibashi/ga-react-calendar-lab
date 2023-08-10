@@ -1,4 +1,12 @@
-.Calendar {
+.day-types {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    height: 4vmin;
+}
+
+
+.calendar {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -6,4 +14,7 @@
     row-gap: 1vmin;
 
     padding: 3vmin;
+
+    height: auto;
 }
+
